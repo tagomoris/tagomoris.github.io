@@ -99,20 +99,19 @@ params:
     image: "/tagomoris-2018.jpg"
     content: |-
       I am a programmer, technical consultant, OSS developer and an App service provider. The main technical focuses are developing/hosting/operating Web applications, building Data analytics platforms, developing data management/distributed middleware, and writing OSS libraries.
-      
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      As a technical consultant, I have some contracts with a few startup companies and providing my knowledges through consulting sessions about data engineering, system architecture, engineering team building, and generic problems at tech startups.
+
+      My current focus is to build an App service and to ship it.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
+        - "Data engineering"
+        - "Distributed systems"
+        - "Ruby"
+        - "Swift"
         - "React"
-        - "Node"
-        - "Express"
 
   # # Experience
   # experience:
@@ -154,62 +153,41 @@ params:
       # - title: Pathtraq
       - title: Mentemo
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "Technical Consultant"
+          url: "https://engineering.mentemo.com/entry/2021/10/20/100852"
+        date: "2021 - Now"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+          Consultation about everything around engineering and startups
+            - Provide architecture reviews and system designs
+            - Guide how to build the engineering team
+            - Review system/performance troubles and suggest how to solve them
       - title: Loglass
         school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
+          name: "Technical Consultant"
+          url: "https://prtimes.jp/main/html/rd/p/000000050.000052025.html"
+        date: "2021 - Now"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "Fluentd: Pragmatic Introduction"
+          Consultation about data engineering, database and system architecture
+      - title: "Fluentd: Pragmatic Introduction (Fluentd実践入門)"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-
-  # Achievements
-  achievements:
-    enable: true
-    title: "Conference Talks and Interviews"
-    items:
-      - title: RubyKaigi
-        content: Takeout 2021, 2019 (LT), 2018, ...
-        url: https://example.com
-      - title: RubyConf 2018
-        content: And 2014
-      - title: EURUKO 2015
-        content: We are developed a product which can help others.
-      - title: YAPC::Asia 2015
-        content: And 2014
-        url: "https://github.com/gurusabarish/hugo-profile"
-      - title: HadoopCon 2014 Taiwan
-        content: Contributed to a open source project.
-        url: https://example.com
-      - title: And Many Others...
-        content: My talk presentations are hosted on my SlideShare page.
-        url: https://www.slideshare.net/tagomoris/presentations
+          name: "Author"
+          url: "https://gihyo.jp/book/2022/978-4-297-13109-8"
+        date: "2022"
+        content: |-
+          <img src="http://image.gihyo.co.jp/assets/images/cover/2022/9784297131098.jpg" alt="Fluentd実践入門" height="280" style="float: right;" />
+          The world's first, definitive guide of the data collector software, Fluentd. Fluentd is a CNCF project, and a defacto standard tool to collect logs on the Kubernetes platform. I am one of main developers/maintainers of Fluentd, and this book was written based on my long-term experience and knowledges as a user and a developer of Fluentd.
+          
+          Thid book covers:
+            - The overview of log collection and Fluentd use cases
+            - How to install/configure Fluentd
+            - How Fluentd processes data
+            - What the Fluentd plugins are
+            - How to operate Fluentd in production
+            - How to write Fluentd plugins
+        # featuredLink:
+        #   enable: true
+        #   name: "Description and Index in English"
+        #   url: "https://example.com"
 
   # projects
   projects:
@@ -217,77 +195,97 @@ params:
     title: "Events and OSS Projects"
     items:
       - title: ISUCON
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
+        content: ISUCON is a performance tuning contest about Web applications. I founded ISUCON as a brand new event at 2011, and worked to prepare the contest at 2011 (ISUCON1), 2012 (ISUCON2) and 2015 (ISUCON5). And I was also a member of the winner team at 2013 (ISUCON3) and 2014 (ISUCON4). Now that event is organized by LINE corp. and has been taken over by many Japanese web app engineers.
+        image: https://isucon.net/parts/logo.png
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          name: isucon.net
+          link: https://isucon.net/
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+          - "Web"
+          - "Database"
+          - "Infrastructure"
+          - "Performance"
 
       - title: Fluentd
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+        content: Fluentd was founded originally by Sadayuki Furuhashi (@frsyuki), then I joined that project as a maintainer. I re-designed its plugin system and core plugins totally, then worked to make the stable version, v1.0. Fluentd is now a CNCF project.
+        image: https://www.fluentd.org/images/miscellany/fluentd-logo.png
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+          name: Fluentd Contributors
+          link: https://github.com/fluent/fluentd/graphs/contributors
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Big Data"
+          - "Logging"
+          - "Infrastructure"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://github.com/fluent/fluentd
 
       - title: Norikra
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+        content: Norikra is an OSS stream processing tool, written in JRuby, runs on JVM. I founded and developled Norikra to realize ease-to-use (non-distributed) stream processing using SQL in a schema-less way.
+        image: https://raw.githubusercontent.com/norikra/norikra.github.io/master/images/norikra.background.png
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "JRuby"
+          - "Stream Processing"
+          - "Big Data"
+          - "SQL"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/norikra/norikra
 
       - title: MessagePack
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        # image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+        content: MessagePack is an open source data serialization format project, and I joined this project as a maintainer. I worked on msgpack-ruby main maintainer, and a member of MessagePack spec maintainer team.
+        image: https://raw.githubusercontent.com/msgpack/website/master/images/logo.png
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "Data"
+          - "Ruby"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/msgpack/msgpack
+          - icon: fab fa-github
+            url: https://github.com/msgpack/msgpack-ruby
 
       - title: Woothee
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        # image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+        content: Woothee is a project to create/maintain multi-language user-agent string parser. I founded the project Woothee, and developed the main set of data/tests, then libraries in Java, Ruby, Perl, and JavaScript. Many other contributors joined this project, and many other language implementations were added.
+        image: /woothee.png
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Web"
+          - "User-Agent"
+          - "Java"
+          - "Perl"
+          - "Ruby"
+          - "JavaScript"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/woothee/woothee
+
+  # Achievements
+  achievements:
+    enable: true
+    title: "Conference Talks and Interviews"
+    items:
+      - title: RubyKaigi Takeout 2021
+        content: |
+          RubyKaigi is an international conference about the programming language, Ruby. I presented a talk about a Ruby web application server using Ractor at RubyKaigi Takeout 2021. I also presented at RubyKaigi 2019 (Lightening talk), 2018, 2017, 2016, 2015, 2014 (Lightening talk), and 2013.
+        url: https://rubykaigi.org/2021-takeout/presentations/tagomoris.html
+      - title: RubyConf 2018
+        content: |-
+          RubyConf is another international Ruby conference in US. I presented a talk about meta programming technics in Ruby at RubyConf 2018. I also presented at RubyConf 2014.
+        url: https://www.youtube.com/watch?v=ZPaxvU7dMBU
+      - title: EURUKO 2015
+        content: |-
+          Euruko is an annual European Ruby Conference, and I presented a talk about data company's systems and architecture at Euruko 2015.
+        url: https://2015.euruko.org/#speakers
+      - title: YAPC::Asia 2015
+        content: |-
+          YAPC::Asia was a conference about a language Perl and other topics. I presented at YAPC::Asia 2015 about OSS calcutre and how to maintain OSS projects. I also presented at YAPC::Asia 2014.
+        url: http://yapcasia.org/2015/talk/show/5f5cad74-004a-11e5-acf4-89c77d574c3a
+      - title: HadoopCon 2014 Taiwan
+        content: |-
+          HadoopCon Taiwan is a conference about Hadoop, a distributed processing platform. I presented at there as a keynote speaker about Lambda architecture and an actual system in LINE, and also as a speaker about the OSS stream processing software, developed by myself, Norikra.
+        url: http://2014.hadoopcon.org/agenda/
+      - title: And Many Others...
+        content: My talk presentations are hosted on my SlideShare page.
+        url: https://www.slideshare.net/tagomoris/presentations
 
   #Contact
   contact:
